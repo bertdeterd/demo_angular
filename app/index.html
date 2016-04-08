@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-    <link href="app/app.component.css" rel="stylesheet" />
-
+    
     <!-- 1. Load libraries -->
     <!-- IE required polyfills, in this exact order -->
     <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
@@ -26,6 +25,7 @@
     <!-- Required for routing -->
     <script src="node_modules/angular2/bundles/router.dev.js"></script>
 
+  
     <!-- 2. Configure SystemJS -->
     <script>
         System.config({
@@ -39,8 +39,10 @@
       System.import('app/main')
             .then(null, console.error.bind(console));
     </script>
+    
+    
 </head>
 <body>
-    <pm-app>Loading App...</pm-app>
+    <my-app>Loading App...</my-app>
 </body>
 </html>
